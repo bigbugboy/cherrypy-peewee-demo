@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fish"
+version = "0.1.0"
+description = ""
+authors = ["liuxu <xu.liu@igarment.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+cherrypy = "^18.8.0"
+peewee = "^3.16.2"
+pyjwt = "^2.6.0"
+
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+default = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
